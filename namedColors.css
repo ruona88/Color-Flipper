@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/fredokaone/v8/k3kUo8kEI-tA1RRcTZGmTlHGCac.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lobster/v23/neILzCirqoswsqX9zoKmMw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding : 0px
+}
+
+ul {
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Fredoka One';
+}
+
+main {
+    position: relative;
+    top: 20px;
+    height: 637px;
+}
+
+main .textandbutton {
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+main div p {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Lobster';
+}
+
+
+button {
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+span {
+    font-family: 'Lobster';
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: grey;
+    }
+    .textandbutton {
+        width: 100%;
+        height: 0px;
+        font-size: 0.5em;
+    }
+}
